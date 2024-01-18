@@ -112,6 +112,6 @@ class Application(Frame):
 root=Tk()
 root.geometry("1024x600")
 root.overrideredirect(1) 
-root.iconbitmap('thiru.ico')
+#root.iconbitmap('thiru.ico') can uncomment for windows OS alone
 app=Application(root)
 root.mainloop()
